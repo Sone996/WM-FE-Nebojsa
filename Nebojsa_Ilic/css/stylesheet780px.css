@@ -1,0 +1,408 @@
+.Screensize_768 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 177;
+}
+.header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 176;
+}
+.HOME_____About_us____our_work____contact {
+  font-size: 17px;
+  font-family: "Arial";
+  color: rgb(161, 163, 166);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1458px;
+  top: 416.8px;
+  z-index: 174;
+}
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 1216px;
+  top: 406px;
+  width: 150px;
+  height: 45px;
+  z-index: 173;
+}
+.slider {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 171;
+}
+.Shape_3_copy_3 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1182px;
+  top: 785px;
+  width: 767px;
+  height: 1px;
+  z-index: 170;
+}
+.Shape_3_copy_2 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1186px;
+  top: 786px;
+  width: 763px;
+  height: 1px;
+  z-index: 169;
+}
+.slider_buttons {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 168;
+}
+.Shape_2_copy_5 {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1578px;
+  top: 762px;
+  width: 9px;
+  height: 9px;
+  z-index: 167;
+}
+.Shape_2_copy_4 {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1563px;
+  top: 762px;
+  width: 9px;
+  height: 9px;
+  z-index: 166;
+}
+.Shape_2_copy_3 {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1547px;
+  top: 762px;
+  width: 9px;
+  height: 9px;
+  z-index: 165;
+}
+.Lorem_ipsum_dolor_sit_amet {
+  font-size: 48px;
+  font-family: "Arial";
+  color: rgb(117, 117, 117);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1492px;
+  top: 575.809px;
+  width: 330px;
+  height: 95px;
+  z-index: 163;
+}
+.dots {
+  background-image: url("dots.png");
+  position: absolute;
+  left: 1190px;
+  top: 563px;
+  width: 752px;
+  height: 132px;
+  z-index: 161;
+}
+.bg {
+  background-image: url("bg.png");
+  position: absolute;
+  left: 1183px;
+  top: 477px;
+  width: 768px;
+  height: 310px;
+  z-index: 160;
+}
+.who_we_are {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 158;
+}
+.boxes {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 155;
+}
+.Shape_4_copy_7 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1359px;
+  top: 1032px;
+  width: 189px;
+  height: 113px;
+  z-index: 154;
+}
+.Shape_4_copy_6 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1359px;
+  top: 879px;
+  width: 189px;
+  height: 113px;
+  z-index: 153;
+}
+.show_more {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 151;
+}
+.show_more {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(100, 100, 100);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix(0.80657767637255, 0, 0, 0.80657767637255, 0, 0);
+  -webkit-transform: matrix(0.80657767637255, 0, 0, 0.80657767637255, 0, 0);
+  -ms-transform: matrix(0.80657767637255, 0, 0, 0.80657767637255, 0, 0);
+  position: absolute;
+  left: 1710.078px;
+  top: 1127.805px;
+  z-index: 150;
+}
+.Shape_6_copy_3 {
+  border-radius: 3px;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1708px;
+  top: 1122px;
+  width: 67px;
+  height: 23px;
+  z-index: 149;
+}
+.show_more {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 147;
+}
+.show_more {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(100, 100, 100);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix(0.80657767637255, 0, 0, 0.80657767637255, 0, 0);
+  -webkit-transform: matrix(0.80657767637255, 0, 0, 0.80657767637255, 0, 0);
+  -ms-transform: matrix(0.80657767637255, 0, 0, 0.80657767637255, 0, 0);
+  position: absolute;
+  left: 1710.078px;
+  top: 974.805px;
+  z-index: 146;
+}
+.Shape_6_copy_2 {
+  border-radius: 3px;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1708px;
+  top: 969px;
+  width: 67px;
+  height: 23px;
+  z-index: 145;
+}
+.Lorem_ipsum__Lorem_ipsum_dolor_sit_amet__consec {
+  font-size: 15px;
+  font-family: "Arial";
+  color: rgb(100, 100, 100);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1586px;
+  top: 1030.128px;
+  width: 185px;
+  height: 89px;
+  z-index: 143;
+}
+.Lorem_ipsum__Lorem_ipsum_dolor_sit_amet__consec {
+  font-size: 15px;
+  font-family: "Arial";
+  color: rgb(100, 100, 100);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1586px;
+  top: 877.128px;
+  width: 185px;
+  height: 89px;
+  z-index: 142;
+}
+.WHO_WE_ARE {
+  font-size: 30px;
+  font-family: "Arial";
+  color: rgb(117, 117, 117);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1359px;
+  top: 830.255px;
+  width: 199px;
+  height: 22px;
+  z-index: 141;
+}
+.what_we_do {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 139;
+}
+.boxes {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 134;
+}
+.Shape_4_copy_11 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1587px;
+  top: 1389px;
+  width: 189px;
+  height: 113px;
+  z-index: 133;
+}
+.Shape_4_copy_10 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1587px;
+  top: 1236px;
+  width: 189px;
+  height: 113px;
+  z-index: 132;
+}
+.Shape_4_copy_9 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1359px;
+  top: 1389px;
+  width: 189px;
+  height: 113px;
+  z-index: 131;
+}
+.Shape_4_copy_8 {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1359px;
+  top: 1236px;
+  width: 189px;
+  height: 113px;
+  z-index: 130;
+}
+.WHAT_WE_DO {
+  font-size: 30px;
+  font-family: "Arial";
+  color: rgb(117, 117, 117);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1359px;
+  top: 1187.255px;
+  width: 198px;
+  height: 22px;
+  z-index: 128;
+}
+.footer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 2077px;
+  z-index: 126;
+}
+.HOME___About_us___our_work____contact {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(161, 163, 166);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 1431px;
+  top: 1605.6px;
+  z-index: 125;
+}
+.circle {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1220px;
+  top: 1592px;
+  width: 40px;
+  height: 39px;
+  z-index: 120;
+}
+.circle {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1277px;
+  top: 1592px;
+  width: 40px;
+  height: 39px;
+  z-index: 119;
+}
+.circle {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1333px;
+  top: 1592px;
+  width: 40px;
+  height: 39px;
+  z-index: 118;
+}
+.circle {
+  border-radius: 50%;
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1874px;
+  top: 1592px;
+  width: 40px;
+  height: 39px;
+  z-index: 117;
+}
+.bg {
+  background-color: rgb(188, 213, 70);
+  position: absolute;
+  left: 1183px;
+  top: 1583px;
+  width: 769px;
+  height: 59px;
+  z-index: 116;
+}

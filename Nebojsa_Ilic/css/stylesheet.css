@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+.background {
+  background-image: url("background.png");
+  position: absolute;
+  left: -1033px;
+  top: 0px;
+  width: 4041px;
+  height: 2080px;
+  z-index: 1;
+}
+*/
+/*navigation*/
+.menu-container {
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center; /* Add this */
+}
+
+/*koristi se i za footer*/
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.login {
+  margin-left: 20px;
+}
+
+/*slider*/
+.header-container {
+  background-image: url("Vector Smart Object copy 36.png"); /*NE RADI SLIKA*/
+  color: #5995da;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.social,
+.subscribe {
+  border: 1px solid #5995da;
+}
+
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 32% 40% 0 36%;
+}
+
+.slider-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-grid {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.slider-grid-item {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.other-item {
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  height: 30px;
+  padding: 5px;
+}
+
+/*****************************************************************/
+/*gigaklasa koristis za obe kockice*/
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*koristis is za druge kockice i kockice sa tekstom*/
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/*koristis za svaki element photo grida kod prvih i drugih kockica*/
+.photo-grid-item {
+  padding-bottom: 15px;
+}
+
+/*prve kockice i naslov*/
+.first-header {
+  width: 100%;
+  height: 50px;
+  padding: 10px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.show-more {
+  margin-left: 20px;
+}
+
+/*fali background-color: rgb(188, 213, 70); i position left: 361px;
+  top: 866px;*/
+.Shape_4_copy_19 {
+  width: 170px;
+  height: 102px;
+  z-index: 251;
+}
+
+/*****************************************************************/
+/*footer*/
+.footer {
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  background-color: #dbdbdb;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.up {
+  margin-left: 20px;
+}
+
+/*treba ubaciti u footer*/
+.Shape_5_copy_24 {
+  border-radius: 50%;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+  left: 299px;
+  top: 1634px;
+  width: 40px;
+  height: 39px;
+  z-index: 270;
+}
