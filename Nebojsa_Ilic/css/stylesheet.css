@@ -1,32 +1,83 @@
-* {
-  margin: 0;
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
   padding: 0;
-  box-sizing: border-box;
 }
-/*
-.background {
-  background-image: url("background.png");
-  position: absolute;
-  left: -1033px;
-  top: 0px;
-  width: 4041px;
-  height: 2080px;
-  z-index: 1;
+
+.aside-1 {
+  /* text-align: center;
+  padding: 0; */
 }
-*/
+
+.aside-2 {
+  /* background: hotpink; */
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 0 0;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+  .aside-1 {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  .aside-2 {
+    order: 3;
+  }
+  .footer {
+    order: 4;
+  }
+}
+
+body {
+  /* padding: 2em; */
+  margin: 0;
+}
+
+/******************************************************************************/
+p {
+  text-align: left;
+}
 /*navigation*/
 .menu-container {
   color: #fff;
-  padding: 10px 10px 10px 10px;
+  /* padding: 10px 10px 10px 10px; */
   display: flex;
   justify-content: center; /* Add this */
 }
 
 /*koristi se i za footer*/
 .menu {
-  width: 900px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .links {
   margin-top: 10px;
@@ -39,20 +90,13 @@
 
 /*slider*/
 .header-container {
-  background-image: url("Vector Smart Object copy 36.png"); /*NE RADI SLIKA*/
-  color: #5995da;
+  background-image: url("../images/Vector Smart Object copy 36.png"); /*NE RADI SLIKA*/
   display: flex;
   justify-content: center;
-  margin-top: -5px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  background-color: rgb(243, 243, 243);
 }
-.header {
-  width: 900px;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-}
+
 .social,
 .subscribe {
   border: 1px solid #5995da;
@@ -60,22 +104,23 @@
 
 .slider {
   width: 300px;
-  height: 300px;
+  height: fit-content;
   display: flex;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 .slide {
   width: 300px;
+  height: fit-content;
   flex-shrink: 0;
   height: 100%;
-  padding: 32% 40% 0 36%;
+  padding: 4% 40% 0 36%;
 }
 
-.slider-grid-container {
+/* .slider-grid-container {
   display: flex;
   justify-content: center;
-}
+} */
 
 .slider-grid {
   display: flex;
@@ -86,7 +131,8 @@
 .slider-grid-item {
   border: 1px solid #fff;
   width: 100%;
-  height: 100%;
+  justify-content: space-between;
+  display: flex;
 }
 
 .other-item {
@@ -106,7 +152,7 @@
 
 /*koristis is za druge kockice i kockice sa tekstom*/
 .photo-grid {
-  width: 900px;
+  /* width: 900px; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -116,6 +162,8 @@
 /*koristis za svaki element photo grida kod prvih i drugih kockica*/
 .photo-grid-item {
   padding-bottom: 15px;
+  margin: 5px;
+  /* background-color: aqua; */
 }
 
 /*prve kockice i naslov*/
@@ -124,7 +172,7 @@
   height: 50px;
   padding: 10px 0 0 20px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: stretch;
 }
 .show-more {
@@ -137,6 +185,8 @@
   width: 170px;
   height: 102px;
   z-index: 251;
+  padding-top: 4rem;
+  background-color: rgb(233, 233, 233);
 }
 
 /*****************************************************************/
@@ -159,13 +209,133 @@
 }
 
 /*treba ubaciti u footer*/
-.Shape_5_copy_24 {
+.circles_footer {
   border-radius: 50%;
   background-color: rgb(243, 243, 243);
-  position: absolute;
-  left: 299px;
-  top: 1634px;
   width: 40px;
   height: 39px;
   z-index: 270;
+  overflow: hidden;
+  justify-content: center;
+  padding: 8px 0 0 13px;
+  margin: 0 18px 3px 0;
+}
+
+/**************************************************************************************/
+
+.dropbtn {
+  background-image: url("../images/Vector Smart Object copy 52.png");
+  background-size: cover;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown-color {
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgb(193, 217, 88) 0%,
+    rgb(19, 117, 184) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(193, 217, 88) 0%,
+    rgb(19, 117, 184) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(193, 217, 88) 0%,
+    rgb(19, 117, 184) 100%
+  );
+  /* position: absolute; */
+  /* left: 2104px;
+  top: 881px; */
+  width: 321px;
+  height: 22px;
+  z-index: 93;
+}
+
+.search {
+  background-image: url("../images/Vector Smart Object copy 51.png");
+  background-size: cover;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+.search-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 1;
+}
+
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* .dropdown a:hover {
+  background-color: #ddd;
+} */
+
+.show {
+  display: block;
+}
+
+.field {
+  border: 1px solid #666;
+  border-radius: 2px;
+  width: 310px;
+  padding-top: 3px;
 }
