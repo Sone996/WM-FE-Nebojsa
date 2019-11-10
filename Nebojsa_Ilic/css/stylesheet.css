@@ -1,65 +1,47 @@
-.wrapper {
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 300;
+  color: #888;
+}
+
+
+header {
+  width: 100%;
+}
+
+header > img {
+  width: 100%;
+  height: 4px;
+}
+
+header > .menu-container {
+  padding: 16px;
+  padding-bottom: 0;
+}
+
+.photo-grid-item > .img-wrapper {
   display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-}
-
-.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
-}
-
-.header {
-  background: tomato;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 160px;
+  background-color: #E3E3E3;
 }
 
 .footer {
   background: lightgreen;
 }
 
-.main {
+.carousel {
   text-align: left;
   padding: 0;
 }
 
-.aside-1 {
-  /* text-align: center;
-  padding: 0; */
-}
-
-.aside-2 {
-  /* background: hotpink; */
-}
-
-@media all and (min-width: 600px) {
-  .aside {
-    flex: 1 0 0;
-  }
-}
-
-@media all and (min-width: 800px) {
-  .main {
-    flex: 3 0px;
-  }
-  .aside-1 {
-    order: 1;
-  }
-  .main {
-    order: 2;
-  }
-  .aside-2 {
-    order: 3;
-  }
-  .footer {
-    order: 4;
-  }
-}
-
-body {
-  /* padding: 2em; */
-  margin: 0;
-}
 
 /******************************************************************************/
 p {
@@ -117,11 +99,6 @@ p {
   padding: 4% 40% 0 36%;
 }
 
-/* .slider-grid-container {
-  display: flex;
-  justify-content: center;
-} */
-
 .slider-grid {
   display: flex;
   justify-content: left;
@@ -148,22 +125,50 @@ p {
 .photo-grid-container {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+.grid-wrapper {
+  width: 100%;
 }
 
 /*koristis is za druge kockice i kockice sa tekstom*/
 .photo-grid {
-  /* width: 900px; */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.item-description > .show-more {
+  float: right;
+  color: #222;
+  text-decoration: none;
+  background: #E3E3E3;
+  padding: 2px;
+}  
+
+.item-description > p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 479px) {
+  .photo-grid {
+    grid-template-columns: initial;
+  }
+
+  
+  .item-description > p {
+    display: none;
+  }
+
 }
 
 /*koristis za svaki element photo grida kod prvih i drugih kockica*/
 .photo-grid-item {
   padding-bottom: 15px;
   margin: 5px;
-  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
 }
 
 /*prve kockice i naslov*/
@@ -181,13 +186,6 @@ p {
 
 /*fali background-color: rgb(188, 213, 70); i position left: 361px;
   top: 866px;*/
-.Shape_4_copy_19 {
-  width: 170px;
-  height: 102px;
-  z-index: 251;
-  padding-top: 4rem;
-  background-color: rgb(233, 233, 233);
-}
 
 /*****************************************************************/
 /*footer*/
@@ -213,13 +211,19 @@ p {
   border-radius: 50%;
   background-color: rgb(243, 243, 243);
   width: 40px;
-  height: 39px;
-  z-index: 270;
-  overflow: hidden;
+  height: 40px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 8px 0 0 13px;
-  margin: 0 18px 3px 0;
+  margin-right: 8px;
 }
+/* width: 40px;
+height: 39px;
+z-index: 270;
+overflow: hidden;
+justify-content: center;
+padding: 8px 0 0 13px;
+margin: 0 18px 3px 0; */
 
 /**************************************************************************************/
 
