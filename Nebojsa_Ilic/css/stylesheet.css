@@ -6,6 +6,16 @@
 .img-div {
   --phone-img: url("../images/Vector Smart Object copy 49.png");
   --phone-img-hover: url("../images/Vector Smart Object copy 71.png");
+  --like-img: url("../images/Vector Smart Object copy 50.png");
+  --like-img-hover: url("../images/Vector Smart Object copy 72.png");
+  --calc-img: url("../images/Vector Smart Object copy 67.png");
+  --calc-img-hover: url("../images/Vector Smart Object copy 75.png");
+  --clock-img: url("../images/Vector Smart Object copy 44.png");
+  --clock-img-hover: url("../images/Vector Smart Object copy 76.png");
+  --cloud-img: url("../images/Vector Smart Object copy 69.png");
+  --cloud-img-hover: url("../images/Vector Smart Object copy 73.png");
+  --heart-img: url("../images/Vector Smart Object copy 70.png");
+  --heart-img-hover: url("../images/Vector Smart Object copy 74.png");
 }
 
 body {
@@ -30,7 +40,7 @@ p {
   /* height: 45px;
   width: 40px; */
 }
-
+/*********************************************************************************************************************************/
 .img-div.phone {
   height: 45px;
   width: 55px;
@@ -42,6 +52,61 @@ p {
   background-image: var(--phone-img-hover);
 }
 
+.img-div.like {
+  height: 45px;
+  width: 55px;
+  background-image: var(--like-img);
+}
+
+.img-wrapper:hover > .like,
+.img-wrapper:active > .like {
+  background-image: var(--like-img-hover);
+}
+
+.img-div.calc {
+  height: 45px;
+  width: 55px;
+  background-image: var(--calc-img);
+}
+
+.img-wrapper:hover > .calc,
+.img-wrapper:active > .calc {
+  background-image: var(--calc-img-hover);
+}
+
+.img-div.clock {
+  height: 45px;
+  width: 55px;
+  background-image: var(--clock-img);
+}
+
+.img-wrapper:hover > .clock,
+.img-wrapper:active > .clock {
+  background-image: var(--clock-img-hover);
+}
+
+.img-div.cloud {
+  height: 45px;
+  width: 55px;
+  background-image: var(--cloud-img);
+}
+
+.img-wrapper:hover > .cloud,
+.img-wrapper:active > .cloud {
+  background-image: var(--cloud-img-hover);
+}
+
+.img-div.heart {
+  height: 45px;
+  width: 55px;
+  background-image: var(--heart-img);
+}
+
+.img-wrapper:hover > .heart,
+.img-wrapper:active > .heart {
+  background-image: var(--heart-img-hover);
+}
+/**********************************************************************************************************************************/
 header {
   width: 100%;
 }
