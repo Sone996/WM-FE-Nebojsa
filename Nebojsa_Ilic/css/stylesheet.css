@@ -16,6 +16,17 @@
   --cloud-img-hover: url("../images/Vector Smart Object copy 73.png");
   --heart-img: url("../images/Vector Smart Object copy 70.png");
   --heart-img-hover: url("../images/Vector Smart Object copy 74.png");
+  --fb-img: url("../images/Vector Smart Object copy 45.png");
+  --fb-img-hover: url("../images/Vector Smart Object copy 81.png");
+
+  --twitter-img: url("../images/Vector Smart Object copy 46.png");
+  --twitter-img-hover: url("../images/Vector Smart Object copy 82.png");
+
+  --mail-img: url("../images/Vector Smart Object copy 47.png");
+  --mail-img-hover: url("../images/Vector Smart Object copy 83.png");
+
+  --arrow-img: url("../images/Vector Smart Object copy 48.png");
+  --arrow-img-hover: url("../images/Vector Smart Object copy 84.png");
 }
 
 body {
@@ -37,6 +48,7 @@ p {
 
 .img-div {
   background-repeat: no-repeat;
+  background-position: center;
   /* height: 45px;
   width: 40px; */
 }
@@ -247,16 +259,6 @@ p {
   text-align: justify;
 }
 
-@media screen and (max-width: 479px) {
-  .photo-grid {
-    grid-template-columns: initial;
-  }
-
-  .item-description > p {
-    display: none;
-  }
-}
-
 /*koristis za svaki element photo grida kod prvih i drugih kockica*/
 .photo-grid-item {
   padding-bottom: 15px;
@@ -281,7 +283,7 @@ p {
 /*fali background-color: rgb(188, 213, 70); i position left: 361px;
   top: 866px;*/
 
-/*****************************************************************/
+/********************************************************************************************************************************************8**/
 /*footer*/
 .footer {
   color: #fff;
@@ -311,15 +313,52 @@ p {
   justify-content: center;
   margin-right: 8px;
 }
-/* width: 40px;
-height: 39px;
-z-index: 270;
-overflow: hidden;
-justify-content: center;
-padding: 8px 0 0 13px;
-margin: 0 18px 3px 0; */
 
-/**************************************************************************************/
+.img-div.fb {
+  height: 40px;
+  width: 40px;
+  background-image: var(--fb-img);
+}
+
+.circles_footer:hover > .fb,
+.circles_footer:active > .fb {
+  background-image: var(--fb-img-hover);
+}
+
+.img-div.twitter {
+  height: 40px;
+  width: 40px;
+  background-image: var(--twitter-img);
+}
+
+.circles_footer:hover > .twitter,
+.circles_footer:active > .twitter {
+  background-image: var(--twitter-img-hover);
+}
+
+.img-div.mail {
+  height: 40px;
+  width: 40px;
+  background-image: var(--mail-img);
+}
+
+.circles_footer:hover > .mail,
+.circles_footer:active > .mail {
+  background-image: var(--mail-img-hover);
+}
+
+.img-div.arrow {
+  height: 40px;
+  width: 40px;
+  background-image: var(--arrow-img);
+}
+
+.circles_footer:hover > .arrow,
+.circles_footer:active > .arrow {
+  background-image: var(--arrow-img-hover);
+}
+
+/****************************************************************************************************************************/
 
 .dropbtn {
   background-image: url("../images/Vector Smart Object copy 52.png");
@@ -436,4 +475,14 @@ margin: 0 18px 3px 0; */
   border-radius: 2px;
   width: 310px;
   padding-top: 3px;
+}
+
+@media screen and (max-width: 479px) {
+  .photo-grid {
+    grid-template-columns: initial;
+  }
+
+  .item-description > p {
+    display: none;
+  }
 }
