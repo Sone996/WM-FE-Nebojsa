@@ -1,14 +1,19 @@
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-weight: 300;
   color: #888;
 }
-
 
 header {
   width: 100%;
@@ -30,7 +35,7 @@ header > .menu-container {
   justify-content: center;
   height: 100px;
   width: 160px;
-  background-color: #E3E3E3;
+  background-color: #e3e3e3;
 }
 
 .footer {
@@ -40,8 +45,8 @@ header > .menu-container {
 .carousel {
   text-align: left;
   padding: 0;
+  margin: -4px 0 0 0;
 }
-
 
 /******************************************************************************/
 p {
@@ -106,7 +111,6 @@ p {
 }
 
 .slider-grid-item {
-  border: 1px solid #fff;
   width: 100%;
   justify-content: space-between;
   display: flex;
@@ -135,7 +139,7 @@ p {
 /*koristis is za druge kockice i kockice sa tekstom*/
 .photo-grid {
   display: grid;
-  width: 100%;
+  width: 50%; /*bilo je 100*/
   grid-template-columns: repeat(2, 50%);
 }
 
@@ -143,9 +147,9 @@ p {
   float: right;
   color: #222;
   text-decoration: none;
-  background: #E3E3E3;
+  background: #e3e3e3;
   padding: 2px;
-}  
+}
 
 .item-description > p {
   text-align: justify;
@@ -156,11 +160,9 @@ p {
     grid-template-columns: initial;
   }
 
-  
   .item-description > p {
     display: none;
   }
-
 }
 
 /*koristis za svaki element photo grida kod prvih i drugih kockica*/
@@ -272,17 +274,17 @@ margin: 0 18px 3px 0; */
 
 .dropdown-color {
   background-image: -moz-linear-gradient(
-    0deg,
+    90deg,
     rgb(193, 217, 88) 0%,
     rgb(19, 117, 184) 100%
   );
   background-image: -webkit-linear-gradient(
-    0deg,
+    90deg,
     rgb(193, 217, 88) 0%,
     rgb(19, 117, 184) 100%
   );
   background-image: -ms-linear-gradient(
-    0deg,
+    90deg,
     rgb(193, 217, 88) 0%,
     rgb(19, 117, 184) 100%
   );
