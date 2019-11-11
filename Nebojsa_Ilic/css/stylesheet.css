@@ -1,3 +1,13 @@
+:root {
+  --primary-font-color: #888;
+  --primary-font-weight: 300;
+}
+
+.img-div {
+  --phone-img: url("../images/Vector Smart Object copy 49.png");
+  --phone-img-hover: url("../images/Vector Smart Object copy 71.png");
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -11,8 +21,25 @@ h4,
 h5,
 h6,
 p {
-  font-weight: 300;
-  color: #888;
+  font-weight: var(--primary-font-weight);
+  color: var(--primary-font-color);
+}
+
+.img-div {
+  background-repeat: no-repeat;
+  /* height: 45px;
+  width: 40px; */
+}
+
+.img-div.phone {
+  height: 45px;
+  width: 55px;
+  background-image: var(--phone-img);
+}
+
+.img-wrapper:hover > .phone,
+.img-wrapper:active > .phone {
+  background-image: var(--phone-img-hover);
 }
 
 header {
