@@ -1,0 +1,39 @@
+<div class="carousel">
+      <div class="header-container">
+        <div class="slider-grid-container">
+          <div class="slider-grid">
+            <div class="slider-grid-item">
+              <div class="slider Vector_Smart_Object_copy_36">
+                <div class="slide" id="slide-1">
+                  <img src="images/Vector Smart Object copy 37.png" alt="slika" />
+                </div>
+                <div class="slide" id="slide-2">
+                  <img src="images/Vector Smart Object copy 37.png" alt="slika" />
+                </div>
+                <div class="slide" id="slide-3">
+                  <img src="images/Vector Smart Object copy 37.png" alt="slika" />
+                </div>
+                <div class="slide" id="slide-4">
+                  <img src="images/Vector Smart Object copy 37.png" alt="slika" />
+                </div>
+                <div class="slide" id="slide-5">
+                  <img src="images/Vector Smart Object copy 37.png" alt="slika" />
+                </div>
+              </div>
+            </div>
+            <div class="slider-grid-item">
+              <!--posle slika u slajderu-->
+              <div class="slider-grid-item other-item">
+                <img src="images/Vector Smart Object copy 38.png" alt="slika" />
+              </div>
+              <div class="slider-grid-item other-item">
+                <p>lorem ipsum</p>
+              </div>
+              <div class="slider-grid-item other-item">
+                <img src="images/Vector Smart Object.png" alt="slika" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

@@ -1,7 +1,7 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("myDropdown").classList.toggle("show-dropdown");
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -11,25 +11,41 @@ window.onclick = function(event) {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
+      if (openDropdown.classList.contains("show-dropdown")) {
+        openDropdown.classList.remove("show-dropdown");
       }
     }
   }
 };
 
 function mySearch() {
-  document.getElementById("mySearch").classList.toggle("show");
+  document.getElementById("mySearch").classList.toggle("show-dropdown");
 }
 
-//slider
-$(".main-gallery").flickity({
-  // options
-  cellAlign: "left",
-  contain: true
-});
-var flkty = new Flickity(".main-gallery", {
-  // options
-  cellAlign: "left",
-  contain: true
-});
+// //slider
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
