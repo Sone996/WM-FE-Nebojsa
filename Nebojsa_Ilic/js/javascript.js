@@ -21,3 +21,15 @@ window.onclick = function(event) {
 function mySearch() {
   document.getElementById("mySearch").classList.toggle("show");
 }
+
+//slider
+$(".main-gallery").flickity({
+  // options
+  cellAlign: "left",
+  contain: true
+});
+var flkty = new Flickity(".main-gallery", {
+  // options
+  cellAlign: "left",
+  contain: true
+});
