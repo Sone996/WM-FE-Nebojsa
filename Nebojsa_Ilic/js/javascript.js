@@ -1,10 +1,7 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show-dropdown");
 }
 
-// Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -18,8 +15,8 @@ window.onclick = function(event) {
   }
 };
 
-function mySearch() {
-  document.getElementById("mySearch").classList.toggle("show-dropdown");
+function jsSearch() {
+  document.getElementById("jsSearch").classList.toggle("show-dropdown");
 }
 
 // //slider

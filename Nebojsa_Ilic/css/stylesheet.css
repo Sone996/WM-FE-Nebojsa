@@ -55,10 +55,8 @@ span {
 .img-div {
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 45px;
-  width: 40px; */
 }
-/*********************************************************************************************************************************/
+
 .img-div.phone {
   height: 45px;
   width: 55px;
@@ -124,7 +122,6 @@ span {
 .img-wrapper:active > .heart {
   background-image: var(--heart-img-hover);
 }
-/**********************************************************************************************************************************/
 header {
   width: 100%;
 }
@@ -159,19 +156,15 @@ header > .menu-container {
   margin: -4px 0 0 0;
 }
 
-/******************************************************************************/
 p {
   text-align: left;
 }
-/*navigation*/
 .menu-container {
   color: #fff;
-  /* padding: 10px 10px 10px 10px; */
   display: flex;
-  justify-content: center; /* Add this */
+  justify-content: center;
 }
 
-/*koristi se i za footer*/
 .menu {
   display: flex;
   justify-content: space-between;
@@ -188,12 +181,10 @@ p {
   justify-content: flex-end;
 }
 
-/*slider*/
 .header-container {
   background: url("../images/Vector Smart Object copy 36.png") center repeat-x; /*NE RADI SLIKA*/
   display: flex;
   justify-content: center;
-  /* margin-bottom: 20px; */
   background-color: rgb(243, 243, 243);
 }
 
@@ -207,14 +198,12 @@ p {
   height: fit-content;
   display: flex;
   overflow-x: auto;
-  /* -webkit-overflow-scrolling: touch; */
 }
 .slide {
   width: 300px;
   height: fit-content;
   flex-shrink: 0;
   height: 100%;
-  /* padding: 4% 40% 0 36%; */
   display: flex;
   margin: 0 auto;
 }
@@ -239,8 +228,6 @@ p {
   padding: 5px;
 }
 
-/*****************************************************************/
-/*gigaklasa koristis za obe kockice*/
 .photo-grid-container {
   display: flex;
   justify-content: center;
@@ -261,7 +248,6 @@ p {
   width: 100%;
 }
 
-/*koristis is za druge kockice i kockice sa tekstom*/
 .photo-grid {
   display: grid;
   width: 100%;
@@ -294,28 +280,19 @@ p {
   margin-bottom: 4px;
 }
 
-/*koristis za svaki element photo grida kod prvih i drugih kockica*/
 .photo-grid-item {
-  /* margin: 5px; */
   align-items: center;
-  /* display: flex; */
   justify-content: center;
 }
 
-/*prve kockice i naslov*/
 .first-header {
   padding-left: 16px;
-  /* justify-content: center; */
 }
 .show-more {
   margin-left: 20px;
 }
 
-/*fali background-color: rgb(188, 213, 70); i position left: 361px;
-  top: 866px;*/
 
-/********************************************************************************************************************************************8**/
-/*footer*/
 .footer {
   color: #fff;
   padding: 10px 11px 10px 12px;
@@ -332,7 +309,6 @@ p {
   margin-left: 20px;
 }
 
-/*treba ubaciti u footer*/
 .circles_footer {
   border-radius: 50%;
   background-color: rgb(243, 243, 243);
@@ -387,8 +363,6 @@ p {
 .circles_footer:active > .arrow {
   background-image: var(--arrow-img-hover);
 }
-
-/****************************************************************************************************************************/
 
 .dropbtn {
   background-image: url("../images/Vector Smart Object copy 52.png");
@@ -496,6 +470,7 @@ p {
   border-radius: 2px;
   width: 310px;
   padding-top: 3px;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 479px) {
@@ -746,7 +721,6 @@ margin-top:0;
   background-image: var(--mail-menu-img-hover);
 }
 
-/* slajder ******************************8*/
 .mySlides {
   display: none;
 }
@@ -757,17 +731,12 @@ img {
   vertical-align: middle;
 }
 
-/* Slideshow container */
 .slideshow-container {
   position: relative;
   margin: auto;
   width: 100%;
-  /* height: 300px; */
-  /* max-height: 300px; */
-  /* background-image: url("../images/Vector Smart Object copy 36.png"); */
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -785,19 +754,11 @@ img {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-} */
-
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -808,16 +769,6 @@ img {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 9px;
@@ -835,7 +786,6 @@ img {
   background-color: #bcd546;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -861,7 +811,6 @@ img {
   }
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev,
   .next,
